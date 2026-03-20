@@ -113,7 +113,7 @@ body {
 }
 
 .project-one {
-  background-image: url(/images/organic.png);
+  background-image: url("../images/organic.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ body {
 }
 
 .project-two {
-  background-image: url(/images/tootyfrooty.png);
+  background-image: url("../images/tootyfrooty.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,7 +133,7 @@ body {
 }
 
 .project-three {
-  background-image: url(/images/sochic.png);
+  background-image: url("../images/sochic.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@ body {
 }
 
 .project-four {
-  background-image: url(/images/theark.png);
+  background-image: url("../images/theark.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,6 +160,8 @@ body {
   width: 35rem;
   height: 45rem;
   border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   padding: 10px;
 }
 
