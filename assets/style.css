@@ -165,6 +165,37 @@ body {
   padding: 10px;
 }
 
+.certificate-one {
+  background-image: url("../images/decertifcate.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.certificates-ctn {
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  background-color: #f0f0f0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.certificate-two {
+  background-image: url("../images/englishCertificate.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25rem;
+  height: 300px;
+  border-radius: 10px;
+}
 /* Tablet styles */
 @media (max-width: 992px) {
   .header {
