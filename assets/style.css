@@ -56,7 +56,7 @@ body {
 
 .main {
   width: 100%;
-  max-height: calc(100vh - 50px);
+  max-height: calc(100vh - 70px);
   background-color: #f0f0f0;
   display: flex;
   flex-direction: column;
@@ -68,22 +68,33 @@ body {
   background-color: #cdd0f8;
   text-align: center;
   color: white;
-  padding: 20px;
+  padding: 10px;
   font-family: "Poiret One", sans-serif;
   margin-top: 20px;
 }
 
 .about-me-ctn {
-  width: 50%;
-  height: 500px;
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-.about-me-ctn h2 {
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 25rem;
+  height: 500px;
+}
+
+.about-me h2 {
   font-family: "Oleo Script Swash Caps", cursive;
   font-size: 36px;
   color: purple;
@@ -196,6 +207,50 @@ body {
   height: 300px;
   border-radius: 10px;
 }
+
+.contact-section {
+  width: 100%;
+  min-height: calc(100vh - 50px);
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*scrolling logos*/
+.logoSkills-ctn {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadada;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 20px;
+  animation: scroll 25s linear infinite;
+}
+
+.logo2 {
+  width: 130px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* Tablet styles */
 @media (max-width: 992px) {
   .header {
