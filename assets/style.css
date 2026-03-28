@@ -218,6 +218,62 @@ body {
   align-items: center;
 }
 
+.url-btn {
+  background-color: #7279ce;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Poiret One", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.url-btn a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.url-btn a:hover {
+  color: purple;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.url-btn:hover {
+  background-color: #cdd0f8;
+  color: white;
+}
+
+.project-list li {
+  list-style-type: none;
+  border: 1px solid purple;
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.project-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/*contact qr code*/
+.contact-qr {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
 /*scrolling logos*/
 .logoSkills-ctn {
   width: 70%;
